@@ -6,3 +6,7 @@ Observaciones segunda entrega
 ------------------------------------------------------- ----------------------------
 - Hacer commits mas numerosos y frecuentes
 - no olvidar hacer merge de las observaciones que se le alcanzan en pull-request
+
+Observaciones tercera entrega
+------------------------------------------------------------------------------------------------
+- Todo bien
