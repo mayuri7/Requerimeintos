@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:background="@drawable/receta1"
+        android:background="@drawable/receta"
         android:orientation="vertical" >
 
         <LinearLayout
@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:background="@drawable/receta1"
+            android:background="@drawable/receta"
             android:orientation="horizontal" >
 
             <LinearLayout
@@ -38,7 +38,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:id="@+id/imagen_single_post_circuito"
-                        android:src="@drawable/receta1"
+                        android:src="@drawable/receta"
                         android:scaleType="centerCrop" />
                 </LinearLayout>
 
