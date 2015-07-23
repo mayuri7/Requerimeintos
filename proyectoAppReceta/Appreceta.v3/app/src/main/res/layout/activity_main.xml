@@ -14,42 +14,39 @@
         android:layout_marginBottom="380dp"
         android:id="@+id/Listmenu"
         android:touchscreenBlocksFocus="false"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:transitionGroup="false">
 
         <Button
-            android:layout_width="88dp"
-            android:layout_height="88dp"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
             android:id="@+id/btnhome"
             android:background="@drawable/home" />
 
         <Button
-            android:layout_width="88dp"
-            android:layout_height="88dp"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
             android:id="@+id/BtnRecetas"
             android:background="@drawable/receta"
           />
 
         <Button
-            android:layout_width="88dp"
-            android:layout_height="88dp"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
             android:id="@+id/btnvideos"
             android:background="@drawable/video" />
 
-        <FrameLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"></FrameLayout>
-
         <Button
-            android:layout_width="88dp"
-            android:layout_height="88dp"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
             android:id="@+id/btnajustes"
             android:background="@drawable/ajuste" />
 
     </LinearLayout>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="352dp"
+        android:layout_height="345dp"
         android:id="@+id/imageView"
         android:layout_alignTop="@+id/Listmenu"
         android:layout_centerHorizontal="true"
@@ -57,19 +54,21 @@
         android:background="@drawable/portada" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
         android:text="INGREDIENTES"
         android:id="@+id/button4"
-        android:layout_below="@+id/imageView"
-        android:layout_alignParentStart="true" />
+        android:layout_marginTop="-50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Listmenu" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
         android:text="PREPARACION"
         android:id="@+id/button5"
+        android:layout_alignEnd="@+id/imageView"
         android:layout_alignTop="@+id/button4"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
