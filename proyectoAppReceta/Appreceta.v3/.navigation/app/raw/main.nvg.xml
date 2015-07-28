@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.MainActivity"/>
+      <point      
+        x = "1808"      
+        y = "220"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.MainActivity"/>
+      <point      
+        x = "284"      
+        y = "308"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.Lista_recetas"/>
+      <point      
+        x = "3684"      
+        y = "12"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.Lista_recetas"/>
+      <point      
+        x = "2416"      
+        y = "12"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

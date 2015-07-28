@@ -28,7 +28,7 @@
             android:layout_height="80dp"
             android:id="@+id/BtnRecetas"
             android:background="@drawable/receta"
-          />
+            android:onClick="@string/title_activity_lista_recetas" />
 
         <Button
             android:layout_width="80dp"
