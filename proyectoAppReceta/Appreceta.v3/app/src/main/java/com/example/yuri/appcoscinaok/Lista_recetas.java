@@ -8,6 +8,16 @@ import android.view.MenuItem;
 
 public class Lista_recetas extends ActionBarActivity {
 
+    int[] imagenhome = {
+            R.drawable.apapa_alahuanca,
+            R.drawable.amuslos_depollo,
+            R.drawable.receta,
+
+    };
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

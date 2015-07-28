@@ -1,6 +1,7 @@
 package com.example.yuri.appcoscinaok;
 
 import android.content.Intent;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,6 +10,12 @@ import android.view.View;
 
 
 public class MainActivity extends ActionBarActivity {
+
+    public String[] mCircuito;
+    protected static Integer[] mImageIds = {
+            R.drawable.receta,
+
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

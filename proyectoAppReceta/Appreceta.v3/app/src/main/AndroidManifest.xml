@@ -21,6 +21,10 @@
             android:name=".Lista_recetas"
             android:label="@string/title_activity_lista_recetas" >
         </activity>
+        <activity
+            android:name=".lis_receta"
+            android:label="@string/title_activity_lis_receta" >
+        </activity>
     </application>
 
 </manifest>
