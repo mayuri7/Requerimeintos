@@ -1,48 +1,67 @@
 package com.example.yuri.appcoscinaok;
 
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class Lista_recetas extends ActionBarActivity {
+public class Lista_recetas {
 
-    int[] imagenhome = {
-            R.drawable.apapa_alahuanca,
-            R.drawable.amuslos_depollo,
-            R.drawable.receta,
+    //declarando los siguentes atributos
+    protected Drawable foto;
+    protected String nombre;
+    protected String info;
+    protected long id;
 
-    };
+    //metodo consructor de la clase
+    public Lista_recetas(Drawable foto, String nombre, String info) {
 
+        //a los parametros le asignamos los parametros
+        this.foto = foto;
+        this.nombre = nombre;
+        this.info = info;
+      // this.id = id;
 
-
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lista_recetas);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_lista_recetas, menu);
-        return true;
+    //metodo get y set
+    //metodo get obtiene los datos
+    public Drawable getFoto() {
+
+        return foto;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
+    //metodo set asigana o inicializa los datos o listas
+    public void setFoto(Drawable foto) {
+        this.foto = foto;
     }
+
+    public String getNombre() {
+        return nombre;
+
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getInfo() {
+        return info;
+    }
+
+    public void setInfo(String cargo) {
+
+        this.info = cargo;
+    }
+public long getId(){
+    return id;
+
 }
+    public void setId (long id){
+        this.id =id;
+    }
+
+}
+
