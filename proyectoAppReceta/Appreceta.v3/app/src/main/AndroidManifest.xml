@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding= 'windows-1251'?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.yuri.appcoscinaok" >
 
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Lista_recetas"
+            android:name=".lista_recetas"
             android:label="@string/title_activity_lista_recetas" >
         </activity>
         <activity
