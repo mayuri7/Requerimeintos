@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding= 'windows-1251'?>
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.yuri.appcoscinaok" >
 
@@ -24,6 +24,14 @@
         <activity
             android:name=".lis_receta"
             android:label="@string/title_activity_lis_receta" >
+        </activity>
+        <activity
+            android:name=".preparacion"
+            android:label="@string/title_activity_preparacion" >
+        </activity>
+        <activity
+            android:name=".Ipreparacion"
+            android:label="@string/title_activity_ipreparacion" >
         </activity>
     </application>
 

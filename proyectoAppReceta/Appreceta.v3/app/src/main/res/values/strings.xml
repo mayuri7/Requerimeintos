@@ -5,4 +5,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_lista_recetas">Lista_recetas</string>
     <string name="title_activity_lis_receta">lis_receta</string>
+    <string name="title_activity_preparacion">preparacion</string>
+    <string name="title_activity_ipreparacion">Ipreparacion</string>
 </resources>
