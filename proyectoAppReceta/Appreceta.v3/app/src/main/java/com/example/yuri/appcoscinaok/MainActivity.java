@@ -30,6 +30,12 @@ public class MainActivity extends Activity{
                 startActivity(new Intent(MainActivity.this, Ingredientes.class));
             }
         });
+        findViewById(R.id.btnajustes).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, configuracion.class));
+            }
+        });
 
 
     }

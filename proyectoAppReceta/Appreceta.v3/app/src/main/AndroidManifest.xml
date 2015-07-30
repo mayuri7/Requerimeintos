@@ -33,6 +33,10 @@
             android:name=".Ingredientes"
             android:label="@string/title_activity_ingredientes" >
         </activity>
+        <activity
+            android:name=".configuracion"
+            android:label="@string/title_activity_configuracion" >
+        </activity>
     </application>
 
 </manifest>
