@@ -7,4 +7,5 @@
     <string name="title_activity_lis_receta">lis_receta</string>
     <string name="title_activity_preparacion">preparacion</string>
     <string name="title_activity_ipreparacion">Ipreparacion</string>
+    <string name="title_activity_ingredientes">Ingredientes</string>
 </resources>
