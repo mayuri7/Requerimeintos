@@ -9,4 +9,5 @@
     <string name="title_activity_ipreparacion">Ipreparacion</string>
     <string name="title_activity_ingredientes">Ingredientes</string>
     <string name="title_activity_configuracion">configuracion</string>
+    <string name="title_activity_listarecetas">listarecetas</string>
 </resources>

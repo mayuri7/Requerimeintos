@@ -37,6 +37,10 @@
             android:name=".configuracion"
             android:label="@string/title_activity_configuracion" >
         </activity>
+        <activity
+            android:name=".listarecetas"
+            android:label="@string/title_activity_listarecetas" >
+        </activity>
     </application>
 
 </manifest>

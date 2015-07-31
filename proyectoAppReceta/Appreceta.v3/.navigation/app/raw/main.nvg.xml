@@ -40,16 +40,72 @@
         class = "com.android.tools.idea.editors.navigation.model.MenuState"      
         className = "com.example.yuri.appcoscinaok.Ipreparacion"/>
       <point      
-        x = "3124"      
-        y = "180"/>
+        x = "3700"      
+        y = "1124"/>
     </statePointEntry>
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.yuri.appcoscinaok.Ipreparacion"/>
       <point      
-        x = "1856"      
-        y = "180"/>
+        x = "2432"      
+        y = "1124"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.listarecetas"/>
+      <point      
+        x = "2896"      
+        y = "232"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.listarecetas"/>
+      <point      
+        x = "1628"      
+        y = "232"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.Ingredientes"/>
+      <point      
+        x = "1768"      
+        y = "2860"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.Ingredientes"/>
+      <point      
+        x = "3036"      
+        y = "2860"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.lis_receta"/>
+      <point      
+        x = "2260"      
+        y = "928"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.configuracion"/>
+      <point      
+        x = "3036"      
+        y = "4240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.configuracion"/>
+      <point      
+        x = "1768"      
+        y = "4240"/>
     </statePointEntry>
     <statePointEntry>
       <state      
@@ -74,14 +130,6 @@
       <point      
         x = "540"      
         y = "1588"/>
-    </statePointEntry>
-    <statePointEntry>
-      <state      
-        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
-        className = "com.example.yuri.appcoscinaok.lis_receta"/>
-      <point      
-        x = "2260"      
-        y = "928"/>
     </statePointEntry>
   </locations>
 </navigationModel>
