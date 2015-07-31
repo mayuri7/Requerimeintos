@@ -42,6 +42,12 @@ public class MainActivity extends Activity{
                 startActivity(new Intent(MainActivity.this, listarecetas.class));
             }
         });
+        findViewById(R.id.btnvideos).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, videos.class));
+            }
+        });
 
 
     }

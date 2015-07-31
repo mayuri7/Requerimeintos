@@ -41,6 +41,14 @@
             android:name=".listarecetas"
             android:label="@string/title_activity_listarecetas" >
         </activity>
+        <activity
+            android:name=".videos"
+            android:label="@string/title_activity_videos" >
+        </activity>
+        <activity
+            android:name=".ingredientsarrozconpollo"
+            android:label="@string/title_activity_ingredientsarrozconpollo" >
+        </activity>
     </application>
 
 </manifest>

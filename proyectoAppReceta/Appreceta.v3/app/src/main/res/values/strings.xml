@@ -10,4 +10,6 @@
     <string name="title_activity_ingredientes">Ingredientes</string>
     <string name="title_activity_configuracion">configuracion</string>
     <string name="title_activity_listarecetas">listarecetas</string>
+    <string name="title_activity_videos">videos</string>
+    <string name="title_activity_ingredientsarrozconpollo">ingredientsarrozconpollo</string>
 </resources>
