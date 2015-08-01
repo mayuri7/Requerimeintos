@@ -5,6 +5,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class listarecetas extends ActionBarActivity {
@@ -13,6 +14,30 @@ public class listarecetas extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listarecetas);
+        findViewById(R.id.single_post_circuito_linearbox).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(listarecetas.this, ingredientsarrozconpollo.class));
+            }
+        });
+        findViewById(R.id.res2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(listarecetas.this, Ingredientes.class));
+            }
+        });
+        findViewById(R.id.line2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(listarecetas.this, Ipreparacion.class));
+            }
+        });
+        findViewById(R.id.linearLayout5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(listarecetas.this, Ingredientes.class));
+            }
+        });
     }
 
     @Override
