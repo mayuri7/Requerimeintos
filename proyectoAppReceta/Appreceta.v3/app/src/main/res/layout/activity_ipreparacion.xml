@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.yuri.appcoscinaok.Ipreparacion">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sandwiches gourmet"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff3505ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tomamos una rebanada de pan alemán y le añadimos 2 ó 3 rodajas de tomate. Encima del tomate, agregaremos el queso para sándwich (son perfectos para sándwich el emmental, el havarti el incluso el queso cheddar). Añadimos una nueva rebanada de pan alemán y encima agregamos el calabacín y el pavo (dos lonchas por cada sándwich). Finalmente, añadimos la última rebanada de pan alemán. Pre-calentemos el horno."
+        android:id="@+id/textView2"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Añadimos aceite en una sartén y la colocamos al fuego. En tanto el aceite esté caliente, añadimos el tomate y el calabacín troceados en rodajas. Les añadimos una pizca de sal y pan rallado por encima. Los cocinaremos durante unos tres minutos por cada lado, dejando que se doren ligeramente."
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:textSize="18dp" />
+
+</RelativeLayout>
