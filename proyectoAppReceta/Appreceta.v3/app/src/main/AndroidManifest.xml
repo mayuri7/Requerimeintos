@@ -9,12 +9,45 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".lista_recetas"
+            android:label="@string/title_activity_lista_recetas" >
+        </activity>
+        <activity
+            android:name=".lis_receta"
+            android:label="@string/title_activity_lis_receta" >
+        </activity>
+        <activity
+            android:name=".Ipreparacion"
+            android:label="@string/title_activity_ipreparacion" >
+        </activity>
+        <activity
+            android:name=".Ingredientes"
+            android:label="@string/title_activity_ingredientes" >
+        </activity>
+        <activity
+            android:name=".configuracion"
+            android:label="@string/title_activity_configuracion" >
+        </activity>
+        <activity
+            android:name=".listarecetas"
+            android:label="@string/title_activity_listarecetas" >
+        </activity>
+        <activity
+            android:name=".videos"
+            android:label="@string/title_activity_videos" >
+        </activity>
+        <activity
+            android:name=".ingredientsarrozconpollo"
+            android:label="@string/title_activity_ingredientsarrozconpollo" >
         </activity>
     </application>
 

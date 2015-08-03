@@ -1,6 +1,15 @@
 <resources>
-    <string name="app_name">appcoscinaok</string>
+    <string name="app_name">appcoscina</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_lista_recetas">Lista_recetas</string>
+    <string name="title_activity_lis_receta">lis_receta</string>
+    <string name="title_activity_preparacion">preparacion</string>
+    <string name="title_activity_ipreparacion">Ipreparacion</string>
+    <string name="title_activity_ingredientes">Ingredientes</string>
+    <string name="title_activity_configuracion">configuracion</string>
+    <string name="title_activity_listarecetas">listarecetas</string>
+    <string name="title_activity_videos">videos</string>
+    <string name="title_activity_ingredientsarrozconpollo">ingredientsarrozconpollo</string>
 </resources>
