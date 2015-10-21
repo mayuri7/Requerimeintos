@@ -26,7 +26,8 @@
         android:id="@+id/textView2"
         android:textSize="18dp"
         android:layout_below="@+id/textView3"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#04092b" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -36,6 +37,8 @@
         android:id="@+id/textView3"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
-        android:textSize="18dp" />
+        android:textSize="18dp"
+        android:translationZ="@dimen/abc_action_bar_content_inset_material"
+        android:textColor="#04092b" />
 
 </RelativeLayout>
