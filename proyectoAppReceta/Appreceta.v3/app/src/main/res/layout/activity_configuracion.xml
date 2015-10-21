@@ -20,7 +20,7 @@
             android:text="Configura tu Alarma"
             android:id="@+id/textView12"
             android:textSize="30dp"
-            android:textColor="#e0171255"
+            android:textColor="#e0040156"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
@@ -38,7 +38,8 @@
             android:id="@+id/button"
             android:layout_below="@+id/timePicker"
             android:layout_centerHorizontal="true"
-            android:textSize="25dp" />
+            android:textSize="25dp"
+            android:textColor="#2ca3be" />
 
     </RelativeLayout>
 
