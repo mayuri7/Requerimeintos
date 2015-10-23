@@ -64,7 +64,7 @@
                             android:text="Arroz Con Pollo"
                             android:id="@+id/tv_titulo_single_post_circuito"
                             android:layout_marginLeft="5dp"
-                            android:textColor="#ff000000" />
+                            android:textColor="#ff0505" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -73,7 +73,7 @@
                             android:text="El arroz con pollo es un plato típico de América Latina y España con variaciones regionales según el país."
                             android:id="@+id/tv_contenido_single_post_circuito"
                             android:layout_marginLeft="5dp"
-                            android:textColor="#ff868686" />
+                            android:textColor="#030303" />
 
                     </LinearLayout>
 
@@ -142,7 +142,7 @@
                             android:text="Papa a la huancaína"
                             android:id="@+id/res22"
                             android:layout_marginLeft="5dp"
-                            android:textColor="#ff000000" />
+                            android:textColor="#f30e0e" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -151,7 +151,7 @@
                             android:text="Huancaína, que trae unas hermosas papas."
                             android:id="@+id/resd2"
                             android:layout_marginLeft="5dp"
-                            android:textColor="#ff868686" />
+                            android:textColor="#030303" />
 
                     </LinearLayout>
 
@@ -194,7 +194,7 @@
                         android:text="Causa Rellena"
                         android:id="@+id/textView13"
                         android:layout_marginLeft="5dp"
-                        android:textColor="#ff000000" />
+                        android:textColor="#f30e0e" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -203,7 +203,7 @@
                         android:text="plato típico y representativo de la gastronomía peruana."
                         android:id="@+id/textView14"
                         android:layout_marginLeft="5dp"
-                        android:textColor="#ff868686"
+                        android:textColor="#030303"
                         android:background="#ffd0fdff" />
                 </LinearLayout>
             </LinearLayout>
@@ -305,7 +305,7 @@
                         android:text="postres lácteos"
                         android:id="@+id/textView15"
                         android:layout_marginLeft="5dp"
-                        android:textColor="#ff000000" />
+                        android:textColor="#f30e0e" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -314,7 +314,7 @@
                         android:text="postres lácteos derivados de leche "
                         android:id="@+id/textView16"
                         android:layout_marginLeft="5dp"
-                        android:textColor="#ff868686"
+                        android:textColor="#030303"
                         android:background="#ffd0fdff" />
                 </LinearLayout>
             </LinearLayout>
