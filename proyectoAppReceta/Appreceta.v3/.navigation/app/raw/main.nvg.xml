@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.MainActivity"/>
+      <point      
+        x = "-84"      
+        y = "48"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.MainActivity"/>
+      <point      
+        x = "1440"      
+        y = "-40"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.Lista_recetas"/>
+      <point      
+        x = "2416"      
+        y = "12"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.Lista_recetas"/>
+      <point      
+        x = "3684"      
+        y = "12"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.ingredientsarrozconpollo"/>
+      <point      
+        x = "1096"      
+        y = "1688"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.ingredientsarrozconpollo"/>
+      <point      
+        x = "-172"      
+        y = "1688"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.Ipreparacion"/>
+      <point      
+        x = "3584"      
+        y = "36"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.Ipreparacion"/>
+      <point      
+        x = "2316"      
+        y = "36"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.listarecetas"/>
+      <point      
+        x = "1236"      
+        y = "28"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.listarecetas"/>
+      <point      
+        x = "924"      
+        y = "444"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.videos"/>
+      <point      
+        x = "1924"      
+        y = "1608"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.videos"/>
+      <point      
+        x = "656"      
+        y = "1608"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.Ingredientes"/>
+      <point      
+        x = "2196"      
+        y = "852"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.Ingredientes"/>
+      <point      
+        x = "3464"      
+        y = "852"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.lis_receta"/>
+      <point      
+        x = "4368"      
+        y = "1248"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.configuracion"/>
+      <point      
+        x = "2348"      
+        y = "1756"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.configuracion"/>
+      <point      
+        x = "3616"      
+        y = "1756"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.lista_recetas"/>
+      <point      
+        x = "4176"      
+        y = "748"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.yuri.appcoscinaok.preparacion"/>
+      <point      
+        x = "540"      
+        y = "1588"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.example.yuri.appcoscinaok.preparacion"/>
+      <point      
+        x = "1808"      
+        y = "1588"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
