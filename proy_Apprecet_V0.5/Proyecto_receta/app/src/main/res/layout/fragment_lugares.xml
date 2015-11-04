@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
 
         android:textSize="15dp"
-        android:textColor="#ff000000"
+        android:textColor="#000000"
         android:background="#ffc5c5c5"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
