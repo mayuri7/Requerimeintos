@@ -24,8 +24,6 @@ public class MainActivity extends ActionBarActivity {
     ViewPagerAdapter mSectionsPagerAdapter;
     ViewPager mViewPager;
     public String[] mCircuito;
-    //String[] titulo = getResources().getStringArray(R.array.categorias);
-
 
     protected static Integer[] mImageIds = {
             R.drawable.apurimac,
@@ -42,18 +40,6 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        // LISTVIEW //
-      /*  lista = (ListView) findViewById(R.id.listViewHome);
-        ArrayAdapter adaptador = new ArrayAdapter(this, android.R.layout.simple_list_item_1, personas);
-        lista.setAdapter(adaptador);
-        lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView adapterView, View view, int i, long l) {
-                Toast.makeText(getApplicationContext(), "posicion " + (i+1) + personas[i], Toast.LENGTH_SHORT).show();
-            }
-        });*/
-        //FIN LISTVIEW
 
         //VIEWPAGER
         mCircuito = getResources().getStringArray(R.array.circuito);
@@ -73,8 +59,6 @@ public class MainActivity extends ActionBarActivity {
         //FIN VIEWPAGER
 
     }
-
-
 
 
     /****************** VIEWPAGER *********************/
@@ -163,7 +147,7 @@ public class MainActivity extends ActionBarActivity {
                     i.putExtra("currentViewPager", currentViewPager);
                     i.putExtra("nombreCircuito", nombre_circuito);
                     startActivity(i);
-                    //overridePendingTransition(R.anim.left_in, R.anim.left_out);
+
                 }
             });
             return rootView;
