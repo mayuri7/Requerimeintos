@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">appcomidastipicas</string>
+    <string name="app_name">comtípicas</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -7,7 +7,7 @@
     <string-array name="circuito">
         <item> APURIMAC </item>
         <item> CUSCO </item>
-       <item> ABANCAY </item>
+       <item> HUANCAVELICA </item>
        <item> AYACUCHO </item>
         <item> AREQUIPA </item>
         <item> AMAZONAS </item>
