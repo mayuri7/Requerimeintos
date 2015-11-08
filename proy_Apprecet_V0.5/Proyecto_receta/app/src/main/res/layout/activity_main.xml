@@ -13,11 +13,11 @@
         android:visibility="visible" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:id="@+id/button2"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/port2" />
+        android:background="@drawable/port1" />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -26,31 +26,31 @@
         <ImageButton
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/imageButton2"
-            android:layout_gravity="left"
-            android:src="@drawable/port2" />
-
-        <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="100dp"
             android:id="@+id/imageButton3"
             android:layout_gravity="center"
             android:src="@drawable/port5" />
 
-        <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageButton4"
-            android:layout_gravity="right|bottom"
-            android:src="@drawable/port4" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/port2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/port4" />
     </FrameLayout>
 
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/imageButton5"
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/port3" />
+        android:background="@drawable/port3" />
 
 
 </LinearLayout>
