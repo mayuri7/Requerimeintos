@@ -12,12 +12,12 @@
         android:layout_height="197dp"
         android:visibility="visible" />
 
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/imageButton"
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/port1" />
+        android:background="@drawable/port2" />
 
     <FrameLayout
         android:layout_width="match_parent"
