@@ -13,23 +13,44 @@
         android:visibility="visible" />
 
     <ImageButton
-        android:layout_width="116dp"
-        android:layout_height="98dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:id="@+id/imageButton"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/port1" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageButton2"
+            android:layout_gravity="left"
+            android:src="@drawable/port2" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageButton3"
+            android:layout_gravity="center"
+            android:src="@drawable/port5" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageButton4"
+            android:layout_gravity="right|bottom"
+            android:src="@drawable/port4" />
+    </FrameLayout>
 
     <ImageButton
-        android:layout_width="125dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton3"
-        android:layout_weight="0.47" />
-
-    <ImageButton
-        android:layout_width="142dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton2"
-        android:layout_weight="0.51"
-        android:layout_gravity="center_horizontal" />
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton5"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/port3" />
 
 
 </LinearLayout>
