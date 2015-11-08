@@ -20,9 +20,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:textSize="30dp"
-        android:textColor="#a4037c72"
-        android:background="#fdfdfd"
+        android:textSize="25dp"
+        android:textColor="#f8142504"
+        android:background="#e8e9d0"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
