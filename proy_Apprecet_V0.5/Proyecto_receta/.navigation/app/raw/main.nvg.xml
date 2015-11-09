@@ -16,16 +16,16 @@
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.ccahuana.appreceta.Listarlugaresimg"/>
       <point      
-        x = "236"      
-        y = "-8"/>
+        x = "220"      
+        y = "-12"/>
     </statePointEntry>
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.ccahuana.appreceta.MainActivity"/>
       <point      
-        x = "2380"      
-        y = "36"/>
+        x = "2396"      
+        y = "-36"/>
     </statePointEntry>
     <statePointEntry>
       <state      
