@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.ccahuana.appreceta.ListarLugares"/>
+      <point      
+        x = "1296"      
+        y = "8"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.ccahuana.appreceta.Listarlugaresimg"/>
+      <point      
+        x = "220"      
+        y = "-12"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.ccahuana.appreceta.MainActivity"/>
+      <point      
+        x = "2396"      
+        y = "-36"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.ccahuana.appreceta.Splash"/>
+      <point      
+        x = "240"      
+        y = "1392"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
