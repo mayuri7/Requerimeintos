@@ -8,32 +8,40 @@
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.ccahuana.appreceta.ListarLugares"/>
       <point      
-        x = "1296"      
-        y = "8"/>
+        x = "1172"      
+        y = "232"/>
     </statePointEntry>
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.ccahuana.appreceta.Listarlugaresimg"/>
       <point      
-        x = "220"      
-        y = "-12"/>
+        x = "124"      
+        y = "-48"/>
     </statePointEntry>
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.ccahuana.appreceta.MainActivity"/>
       <point      
-        x = "2396"      
-        y = "-36"/>
+        x = "2244"      
+        y = "-20"/>
     </statePointEntry>
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.ccahuana.appreceta.Splash"/>
       <point      
-        x = "240"      
-        y = "1392"/>
+        x = "120"      
+        y = "1448"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.ramiromadriaga.viewpagerlistviewactivity.MapsActivity"/>
+      <point      
+        x = "2260"      
+        y = "1628"/>
     </statePointEntry>
   </locations>
 </navigationModel>

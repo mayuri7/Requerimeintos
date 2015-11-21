@@ -1,9 +1,11 @@
 package com.ccahuana.appreceta;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -91,7 +93,7 @@ public class ListarLugares extends ActionBarActivity {
         txtContenido = (TextView) findViewById(R.id.tv_contenido_listaruncircuito);
         imgImagen = (ImageView) findViewById(R.id.iv_imagen_listaruncircuito);
 
-        switch (idcircuito){
+        switch (idcircuito) {
             case 0: //circuito apurimac
                 titulo = getResources().getStringArray(R.array.circuitoapurimac_titulo);
                 contenido = getResources().getStringArray(R.array.circuitoapurimac_contenido_completo);
@@ -132,5 +134,11 @@ public class ListarLugares extends ActionBarActivity {
         }
         txtTitulo.setText(titulo[position]);
         txtContenido.setText(contenido[position]);
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ListarLugares.this, com.ramiromadriaga.viewpagerlistviewactivity.MapsActivity.class));
+            }
+        });
     }
 }
