@@ -49,14 +49,27 @@ public class MainActivity extends ActionBarActivity {
 
         mViewPager = (ViewPager) findViewById(R.id.pager);
 
-        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(0,mCircuito[0], mImageIds[0]));
-        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(1,mCircuito[1], mImageIds[1]));
-        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(2,mCircuito[2], mImageIds[2]));
-        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(3,mCircuito[3], mImageIds[3]));
-        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(4,mCircuito[4], mImageIds[4]));
-        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(5,mCircuito[5], mImageIds[5]));
+        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(0, mCircuito[0], mImageIds[0]));
+        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(1, mCircuito[1], mImageIds[1]));
+        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(2, mCircuito[2], mImageIds[2]));
+        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(3, mCircuito[3], mImageIds[3]));
+        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(4, mCircuito[4], mImageIds[4]));
+        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(5, mCircuito[5], mImageIds[5]));
 
         mViewPager.setAdapter(mSectionsPagerAdapter);
+
+        findViewById(R.id.button5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, com.ramiromadriaga.viewpagerlistviewactivity.MapsActivity.class));
+            }
+        });
+        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Splash.class));
+            }
+        });
         //FIN VIEWPAGER
 
     }
